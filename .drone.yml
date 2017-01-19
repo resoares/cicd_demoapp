@@ -11,7 +11,7 @@ run_test:
 
 publish:
     docker:
-        re´´posoares/cicd_demoapp
+        re´: resoares/cicd_demoapp
         tag: latest
         username: resoares
         password: Cqs16419
