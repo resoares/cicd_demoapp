@@ -31,6 +31,6 @@ deploy:
 
 notify:
      spark:
-          image: resoares/dron-spark
+          image: resoares/drone-spark
           auth_token: Y2lzY29zcGFyazovL3VzL1JPT00vYWJhOWFiYTAtZGNkZi0xMWU2LWE3ODItYTM1OTY2OWNkMzcx
           roomId: Boston Kubernetes Lab
