@@ -8,12 +8,13 @@ run_test:
     image: python:2-alpine
     commands:
         - pip install -r requirements.txt
+        - python testing.py
 
 publish:
     docker:
-        reÂ´: resoares/cicd_demoapp
+        repo´: resoares/cicd_demoapp
         tag: latest
         username: resoares
         password: Cqs16419
         email: resoares@cisco.com
-        - python testing.py
+
