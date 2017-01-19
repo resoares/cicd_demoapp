@@ -28,3 +28,9 @@ deploy:
            password: 1vtG@lw@y
         urls:
             - https://mantlsandbox.cisco.com/marathon/v2/apps/class/resoares/restart?force=true
+
+notify:
+     spark:
+          image: resoares/dron-spark
+          auth_token: Y2lzY29zcGFyazovL3VzL1JPT00vYWJhOWFiYTAtZGNkZi0xMWU2LWE3ODItYTM1OTY2OWNkMzcx
+          roomId: Boston Kubernetes Lab
